@@ -563,7 +563,7 @@
     <section class="  py-5" style=" background-color: #0693e3;">
         <div class="container">
           <div class="row justify-content-between align-items-lg-center">
-            <div class="col-lg-10 mb-4 mb-lg-0">
+            <div class="col-lg-9 mb-4 mb-lg-0">
               <h2 class="display-9 mb-4" style="color: #fff;">ACCUEIL PLUS, RÉCOMPENSÉ À L’ÉCHELLE CANADIENNE COMME PROJET EXCEPTIONNEL! </h2>
               <p class="mb-4" style="color: #fff;">
                 Le service Accueil Plus s’est vu décerner en 2013, le Prix Panorama pour un programme extraordinaire d’éducation internationale.
@@ -573,8 +573,8 @@
               <p><a href="#" style="color: #fff;" class="more">En savoir plus >>></a></p>
 
             </div>
-            <div class="col-lg-2">
-                  <img src="pages/img/Icone2.png" alt="" class="img-fluid mb-4" style="height: 200px; width:auto;">
+            <div class="col-lg-3">
+                  <img src="pages/img/Remise_prix_Panoraman_2013_Accueil_Plus.jpg" alt="" class="img-fluid mb-4" style="height: 200px; width:auto;">
             </div>
           </div>
         </div>
