@@ -1,34 +1,21 @@
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="footer">
-    <div class="footer-legal">
-      <div class="container">
-
-        <div class="row justify-content-between">
-          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-            <div class="copyright">
-              © Copyright <strong><span>ZenBlog</span></strong>. All Rights Reserved
-            </div>
-
-            <div class="credits">
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-
-          </div>
-
-          <div class="col-md-6">
-            <div class="social-links mb-3 mb-lg-0 text-center text-md-end">
-              {{-- <a href="#" class="twitter"><i class="bi bi-twitter"></i></a> --}}
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              {{-- <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a> --}}
-            </div>
-
-          </div>
-
+<footer id="main-footer">
+  <div class="container">
+    <div id="footer-widgets" class="clearfix">
+      <div class="footer-widget">
+        <div id="text-2" class="fwidget et_pb_widget widget_text">
+          <div class="textwidget"></div>
         </div>
-
       </div>
     </div>
-
-  </footer>
+  </div>
+  
+  <div id="footer-bottom">
+    <div class="container clearfix">
+      <p id="footer-info">© Culture Mobile 2023 | Restez connectés avec la communauté !
+        <a href="https://www.facebook.com/pages/Accueil-Plus/1588172648114515?fref=ts">
+          <img src="https://www.accueilplus.ca/wp-content/uploads/2015/06/icone_facebook_20px.png">
+        </a>
+      </p>
+    </div>
+  </div>
+</footer>

@@ -4,7 +4,7 @@
 
       <a href="/" class="logo d-flex align-items-center">
         <img src="pages/img/culture-mobile.png" alt="">
-        <h1>Culture-Mobile</h1>
+        <h1>Culture Mobile</h1>
       </a>
 
       <nav id="navbar" class="navbar">
@@ -36,7 +36,6 @@
             <input type="text" placeholder="Search" class="form-control">
             <button class="btn js-search-close"><span class="bi-x"></span></button>
           </form>
-          
         </div><!-- End Search Form -->
 
       </div>

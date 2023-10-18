@@ -544,33 +544,55 @@
     </section>
 
     
-    <section class="mb-5  py-5" style=" background-color: #8ed1fc;">
+    <section class="  py-5" style=" background-color: #8ed1fc;">
         <div class="container">
           <div class="row justify-content-between align-items-lg-center">
-            <div class="col-lg-8 mb-4 mb-lg-0">
-              <h4>Offert par le Bureau canadien de l’éducation internationale (BCEI), le Prix Panorama récompense les organismes qui contribuent à l’innovation et l’excellence dans la conception, la planification, la mise en œuvre et la gestion de réalisations de grande qualité en éducation internationale.</h4>
-              <p><a href="#" class="more ">En Savoir Plus</a></p>
+            <div class="col-lg-10 mb-4 mb-lg-0">
+              <h2 class="display-3 mb-4" style="color: #fff;">Inscription et conditions d’admission</h2>
+              <h4 style="color: #fff;">
+                Le service Accueil Plus est coordonné par le Bureau de coopération interuniversitaire avec l’appui de l’ensemble des établissements universitaires québécois, du Regroupement des cégeps de Montréal, de la Fédération des cégeps, de Québec métiers d’avenir et du ministère de l’Enseignement Supérieur du Québec. L’Agence des services frontaliers du Canada, le ministère de l’Immigration, de la Francisation et de l’Intégration du Québec et Aéroports de Montréal collaborent également au projet.
+              </h4>
             </div>
-            <div class="col-lg-4">
+            {{-- <div class="col-lg-2">
+                  <img src="pages/img/Icone2.png" alt="" class="img-fluid mb-4" style="height: 200px; width:auto;">
+            </div> --}}
+          </div>
+        </div>
+    </section>
+
+    <section class="  py-5" style=" background-color: #0693e3;">
+        <div class="container">
+          <div class="row justify-content-between align-items-lg-center">
+            <div class="col-lg-10 mb-4 mb-lg-0">
+              <h2 class="display-9 mb-4" style="color: #fff;">ACCUEIL PLUS, RÉCOMPENSÉ À L’ÉCHELLE CANADIENNE COMME PROJET EXCEPTIONNEL! </h2>
+              <p class="mb-4" style="color: #fff;">
+                Le service Accueil Plus s’est vu décerner en 2013, le Prix Panorama pour un programme extraordinaire d’éducation internationale.
+              </p>
+
+              <p style="text-align: left; color: #fff;">Offert par le <span style="text-decoration: underline; color:aquamarine;"><a href="http://www.cbie.ca/fr/" target="_blank" rel="noopener noreferrer" style="color:aquamarine;">Bureau canadien de l’éducation internationale (BCEI)</a></span>, le Prix Panorama récompense les organismes qui contribuent à l’innovation et l’excellence dans la conception, la planification, la mise en œuvre et la gestion de réalisations de grande qualité en éducation internationale.</p>
+              <p><a href="#" style="color: #fff;" class="more">En savoir plus >>></a></p>
+
+            </div>
+            <div class="col-lg-2">
                   <img src="pages/img/Icone2.png" alt="" class="img-fluid mb-4" style="height: 200px; width:auto;">
             </div>
           </div>
         </div>
     </section>
 
-    <section class="mb-5  py-5" style=" background-color: #0693e3;">
-        <div class="container" >
-          <div class="row justify-content-between align-items-lg-center">
-            <div class="col-lg-8 mb-4 mb-lg-0">
-              <h4>Offert par le Bureau canadien de l’éducation internationale (BCEI), le Prix Panorama récompense les organismes qui contribuent à l’innovation et l’excellence dans la conception, la planification, la mise en œuvre et la gestion de réalisations de grande qualité en éducation internationale.</h4>
-              <h4><a href="#" class="more ">En Savoir Plus</a></h4>
-            </div>
-            <div class="col-lg-4">
-                  <img src="pages/img/Icone2.png" alt="" class="img-fluid mb-4" style="height: 200px; width:auto;">
-            </div>
+
+    <section class="py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <span class="et_pb_image_wrap ">
+              <img src="pages/img/img.png" alt="" class="img-fluid mb-4">
+            </span>
           </div>
         </div>
     </section>
+
+
+
 
 
 
