@@ -20,18 +20,6 @@
                     <h2 class="display-8 mb-4" style="color:  #0693e3;">Pour bénéficier du parcours simplifié au bureau de l’Agence des services frontaliers du Canada et de l’accueil en kiosque :</h2>
                     <img src="pages/img/Icone1.png" alt="" class="img-fluid mb-4" style="height: 150ps; width: 150px;">
                 </div>
-                {{-- <div class="col-lg-6">
-                    <h2 class="display-8 mb-4" style="color:   #33cccc;">Conditions d’admission :</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, rem eaque vel est asperiores iste pariatur placeat molestias, rerum provident ea maiores debitis eum earum esse quas architecto! Minima, voluptatum! Minus tempora distinctio quo sint est blanditiis voluptate eos. Commodi dolore nesciunt culpa adipisci nemo expedita suscipit autem dolorum rerum?</p>
-                        <p>At magni dolore ullam odio sapiente ipsam, numquam eius minus animi inventore alias quam fugit corrupti error iste laboriosam dolorum culpa doloremque eligendi repellat iusto vel impedit odit cum. Sequi atque molestias nesciunt rem eum pariatur quibusdam deleniti saepe eius maiores porro quam, praesentium ipsa deserunt laboriosam adipisci. Optio, animi!</p>
-                        <h2 class="display-4 mb-4">Latest News</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, rem eaque vel est asperiores iste pariatur placeat molestias, rerum provident ea maiores debitis eum earum esse quas architecto! Minima, voluptatum! Minus tempora distinctio quo sint est blanditiis voluptate eos. Commodi dolore nesciunt culpa adipisci nemo expedita suscipit autem dolorum rerum?</p>
-                        <p>At magni dolore ullam odio sapiente ipsam, numquam eius minus animi inventore alias quam fugit corrupti error iste laboriosam dolorum culpa doloremque eligendi repellat iusto vel impedit odit cum. Sequi atque molestias nesciunt rem eum pariatur quibusdam deleniti saepe eius maiores porro quam, praesentium ipsa deserunt laboriosam adipisci. Optio, animi!</p>
-                        <p><a href="#" class="more">View All Blog Posts</a></p>                
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, rem eaque vel est asperiores iste pariatur placeat molestias, rerum provident ea maiores debitis eum earum esse quas architecto! Minima, voluptatum! Minus tempora distinctio quo sint est blanditiis voluptate eos. Commodi dolore nesciunt culpa adipisci nemo expedita suscipit autem dolorum rerum?</p>
-                        <p>At magni dolore ullam odio sapiente ipsam, numquam eius minus animi inventore alias quam fugit corrupti error iste laboriosam dolorum culpa doloremque eligendi repellat iusto vel impedit odit cum. Sequi atque molestias nesciunt rem eum pariatur quibusdam deleniti saepe eius maiores porro quam, praesentium ipsa deserunt laboriosam adipisci. Optio, animi!</p>
-                        <p><a href="#" class="more">View All Blog Posts</a></p>                
-                </div> --}}
                 <div class="col-lg-6">
                     <div class="et_pb_text_inner"><h3><span style="color: #0693e3;"><strong>Conditions d’admission :</strong></span></h3>
                         <ul>
@@ -48,19 +36,19 @@
                         <h4><span style="color: #0693e3;"><strong>Et être dans l’une des situations décrites ci-dessous :</strong></span></h4>
                         <ul>
                         <li>
-                        <h4><strong>Détenir, le cas échéant, un numéro de permis d’études, commençant par la lettre F ou U, inscrit sur la lettre d’approbation qui vous a été envoyée par Immigration, Réfugiés et Citoyenneté Canada.</strong></h4>
+                        <h4>Détenir, le cas échéant, un numéro de permis d’études, commençant par la lettre F ou U, inscrit sur la lettre d’approbation qui vous a été envoyée par Immigration, Réfugiés et Citoyenneté Canada.</h4>
                         </li>
                         <li>
                         <h4>Détenir, le cas échéant, un certificat d’acceptation du Québec (CAQ) pour études.</h4>
                         </li>
                         <li>
-                        <h4>Étudiant.e séjournant <strong>moins de 6 mois au Québec</strong>, ne détenant pas un CAQ ni un numéro de permis d’études canadiennes.</h4>
+                        <h4>Étudiant.e séjournant moins de 6 mois au Québec, ne détenant pas un CAQ ni un numéro de permis d’études canadiennes.</h4>
                         </li>
                         <li>
-                        <h4>Étudiant.e détenant un CAQ ainsi qu’un numéro de permis d’études canadien (ou seulement un numéro de permis d’études canadien) et dont <strong style="font-size: 17px;">le premier point d’entrée au Canada est un autre aéroport que l’aéroport Montréal-Trudeau</strong><span style="font-size: 17px;">. Le permis d’études canadien sera délivré au premier point d’entrée au Canada.</span></h4>
+                        <h4>Étudiant.e détenant un CAQ ainsi qu’un numéro de permis d’études canadien (ou seulement un numéro de permis d’études canadien) et dont le premier point d’entrée au Canada est un autre aéroport que l’aéroport Montréal-Trudeau. Le permis d’études canadien sera délivré au premier point d’entrée au Canada</h4>
                         </li>
                         <li>
-                        <h4>Étudiant.e des États-Unis, de Saint-Pierre et Miquelon ou du Groenland, détenant un CAQ, mais qui <strong>demandera le permis d’études canadien au point d’entrée au Canada</strong>.</h4>
+                        <h4>Étudiant.e des États-Unis, de Saint-Pierre et Miquelon ou du Groenland, détenant un CAQ, mais qui demandera le permis d’études canadien au point d’entrée au Canada.</h4>
                         <p>&nbsp;</p>
                         </li>
                         </ul>
