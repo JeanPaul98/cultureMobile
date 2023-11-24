@@ -16,13 +16,15 @@
           <li><a href="/contact">Contactez Nous</a></li>
           <li><a href="/faq">FAQ</a></li>
         </ul>
-      </nav><!-- .navbar -->
+      </nav>
+      <!-- .navbar -->
 
       {{-- <div>
         <a href=""><button>En</a>|<a href="">Fr</button></a>
-     </div> --}}
+      </div> --}}
 
       <div class="position-relative">
+
         <a href="#" class="mx-2"><span class="bi-facebook"></span></a>
         <a href="#" class="mx-2"><span class="bi-instagram"></span></a>
 
