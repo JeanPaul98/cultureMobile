@@ -30,21 +30,21 @@
         <div class="container" data-aos="fade-up">
           <div class="row justify-content-between align-items-lg-center">
             <div class="col-lg-3 mb-4 mb-lg-0">
-              <img src="pages/img/Icone1.png" alt="" class="img-fluid mb-4" style="height: 99ps; width: 99px;">
+              <img src="pages/img/picture1.png" alt="" class="img-fluid mb-4" >
                   <h4 class="fs-5" style="height: 100px;">De l’information sur votre établissement d’enseignement et les premières démarches à faire dès votre arrivée à l’université, au cégep ou dans un centre de formation professionnelle.</h4>
             </div>
             <div class="col-lg-3 mb-4 mb-lg-0">
-              <img src="pages/img/Icone2.png" alt="" class="img-fluid mb-4" style="height: 99ps; width: 99px;">
+              <img src="pages/img/picture2.png" alt="" class="img-fluid mb-4" style="height: 99px; width: 99px;">
                   <h4 class="fs-5" style="height: 100px;">De l’information sur les moyens de transport disponibles pour vous rendre au centre-ville de Montréal ou dans d’autres villes du Québec.</h4>
               <p><a href="#" class="more text-info"></a></p>
             </div>
             <div class="col-lg-3 mb-4 mb-lg-0">
-              <img src="pages/img/Icone2.png" alt="" class="img-fluid mb-4" style="height: 99ps; width: 99px;">
+              <img src="pages/img/picture3.png" alt="" class="img-fluid mb-4" style="height: 99px; width: 99px;">
                   <h4 class="fs-5" style="height: 100px;">Un accès à Internet.</h4>
               <p><a href="#" class="more text-info"></a></p>
             </div>
             <div class="col-lg-3 mb-4 mb-lg-0">
-              <img src="pages/img/Icone2.png" alt="" class="img-fluid mb-4" style="height: 99ps; width: 99px;">
+              <img src="pages/img/picture4.png" alt="" class="img-fluid mb-4" style="height: 99px; width: 99px;">
                   <h4 class="fs-5" style="height: 100px;">Des informations sur la vie au Québec.</h4>
               <p><a href="#" class="more text-info"></a></p>
             </div>

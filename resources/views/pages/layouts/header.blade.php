@@ -12,17 +12,11 @@
           <li><a href="/a-propos">A propos</a></li>
           <li><a href="/inscription">Inscription</a></li>
           <li><a href="/kiosque">Kiosque</a></li>
-          <li><a href="/lien-utiles">Liens utiles</a></li>
+          {{-- <li><a href="/lien-utiles">Liens utiles</a></li> --}}
           <li><a href="/contact">Contactez Nous</a></li>
-          <li><a href="/faq">FAQ</a></li>
+          {{-- <li><a href="/faq">FAQ</a></li> --}}
         </ul>
       </nav>
-      <!-- .navbar -->
-
-      {{-- <div>
-        <a href=""><button>En</a>|<a href="">Fr</button></a>
-      </div> --}}
-
       <div class="position-relative">
 
         <a href="#" class="mx-2"><span class="bi-facebook"></span></a>

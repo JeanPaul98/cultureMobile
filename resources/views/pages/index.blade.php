@@ -121,9 +121,6 @@
                 Le service Accueil Plus est coordonné par le Bureau de coopération interuniversitaire avec l’appui de l’ensemble des établissements universitaires québécois, du Regroupement des cégeps de Montréal, de la Fédération des cégeps, de Québec métiers d’avenir et du ministère de l’Enseignement Supérieur du Québec. L’Agence des services frontaliers du Canada, le ministère de l’Immigration, de la Francisation et de l’Intégration du Québec et Aéroports de Montréal collaborent également au projet.
               </h4>
             </div>
-            {{-- <div class="col-lg-2">
-                  <img src="pages/img/Icone2.png" alt="" class="img-fluid mb-4" style="height: 200px; width:auto;">
-            </div> --}}
           </div>
         </div>
     </section>
