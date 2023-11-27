@@ -1,229 +1,153 @@
   <!-- ======= Header ======= -->
-  <header id="header" class="header fixed-top d-flex align-items-center">
-
-    <div class="d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
-        <img src="img/logo.png" alt="">
-        <span class="d-none d-lg-block">Culture-Mobile</span>
-      </a>
-      <i class="bi bi-list toggle-sidebar-btn"></i>
-    </div><!-- End Logo -->
-
-    <div class="search-bar">
-      <form class="search-form d-flex align-items-center" method="POST" action="#">
-        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
-        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-      </form>
-    </div><!-- End Search Bar -->
-
-    <nav class="header-nav ms-auto">
-      <ul class="d-flex align-items-center">
-
-        <li class="nav-item d-block d-lg-none">
-          <a class="nav-link nav-icon search-bar-toggle " href="#">
-            <i class="bi bi-search"></i>
-          </a>
-        </li><!-- End Search Icon-->
-
-        <li class="nav-item dropdown">
-
-          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
-            <i class="bi bi-bell"></i>
-            <span class="badge bg-primary badge-number">4</span>
-          </a><!-- End Notification Icon -->
-
-          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
-            <li class="dropdown-header">
-              You have 4 new notifications
-              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li class="notification-item">
-              <i class="bi bi-exclamation-circle text-warning"></i>
-              <div>
-                <h4>Lorem Ipsum</h4>
-                <p>Quae dolorem earum veritatis oditseno</p>
-                <p>30 min. ago</p>
-              </div>
-            </li>
-
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li class="notification-item">
-              <i class="bi bi-x-circle text-danger"></i>
-              <div>
-                <h4>Atque rerum nesciunt</h4>
-                <p>Quae dolorem earum veritatis oditseno</p>
-                <p>1 hr. ago</p>
-              </div>
-            </li>
-
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li class="notification-item">
-              <i class="bi bi-check-circle text-success"></i>
-              <div>
-                <h4>Sit rerum fuga</h4>
-                <p>Quae dolorem earum veritatis oditseno</p>
-                <p>2 hrs. ago</p>
-              </div>
-            </li>
-
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li class="notification-item">
-              <i class="bi bi-info-circle text-primary"></i>
-              <div>
-                <h4>Dicta reprehenderit</h4>
-                <p>Quae dolorem earum veritatis oditseno</p>
-                <p>4 hrs. ago</p>
-              </div>
-            </li>
-
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-            <li class="dropdown-footer">
-              <a href="#">Show all notifications</a>
-            </li>
-
-          </ul><!-- End Notification Dropdown Items -->
-
-        </li><!-- End Notification Nav -->
-
-        <li class="nav-item dropdown">
-
-          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
-            <i class="bi bi-chat-left-text"></i>
-            <span class="badge bg-success badge-number">3</span>
-          </a><!-- End Messages Icon -->
-
-          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
-            <li class="dropdown-header">
-              You have 3 new messages
-              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li class="message-item">
-              <a href="#">
-                <img src="img/messages-1.jpg" alt="" class="rounded-circle">
-                <div>
-                  <h4>Maria Hudson</h4>
-                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
-                  <p>4 hrs. ago</p>
-                </div>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li class="message-item">
-              <a href="#">
-                <img src="img/messages-2.jpg" alt="" class="rounded-circle">
-                <div>
-                  <h4>Anna Nelson</h4>
-                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
-                  <p>6 hrs. ago</p>
-                </div>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li class="message-item">
-              <a href="#">
-                <img src="img/messages-3.jpg" alt="" class="rounded-circle">
-                <div>
-                  <h4>David Muldon</h4>
-                  <p>Velit asperiores et ducimus soluta repudiandae labore officia est ut...</p>
-                  <p>8 hrs. ago</p>
-                </div>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li class="dropdown-footer">
-              <a href="#">Show all messages</a>
-            </li>
-
-          </ul><!-- End Messages Dropdown Items -->
-
-        </li><!-- End Messages Nav -->
-
-        <li class="nav-item dropdown pe-3">
-
-          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
-            <img src="img/profile-img.jpg" alt="Profile" class="rounded-circle">
-            <span class="d-none d-md-block dropdown-toggle ps-2">K. Anderson</span>
-          </a><!-- End Profile Iamge Icon -->
-
-          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
-            <li class="dropdown-header">
-              <h6>Kevin Anderson</h6>
-              <span>Web Designer</span>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                <i class="bi bi-person"></i>
-                <span>My Profile</span>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
-                <i class="bi bi-gear"></i>
-                <span>Account Settings</span>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
-                <i class="bi bi-question-circle"></i>
-                <span>Need Help?</span>
-              </a>
-            </li>
-            <li>
-              <hr class="dropdown-divider">
-            </li>
-
-            <li>
-              <a class="dropdown-item d-flex align-items-center" href="#">
-                <i class="bi bi-box-arrow-right"></i>
-                <span>Sign Out</span>
-              </a>
-            </li>
-
-          </ul><!-- End Profile Dropdown Items -->
-        </li><!-- End Profile Nav -->
-
+  <nav class="navbar navbar-expand-lg main-navbar sticky">
+    <div class="form-inline mr-auto">
+      <ul class="navbar-nav mr-3">
+        <li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg
+              collapse-btn"> <i data-feather="align-justify"></i></a></li>
+        <li><a href="#" class="nav-link nav-link-lg fullscreen-btn">
+            <i data-feather="maximize"></i>
+          </a></li>
+        <li>
+          <form class="form-inline mr-auto">
+            <div class="search-element">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search" data-width="200">
+              <button class="btn" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </form>
+        </li>
       </ul>
-    </nav><!-- End Icons Navigation -->
-
-  </header>
+    </div>
+    <ul class="navbar-nav navbar-right">
+      <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
+          class="nav-link nav-link-lg message-toggle"><i data-feather="mail"></i>
+          <span class="badge headerBadge1">
+            6 </span> </a>
+        <div class="dropdown-menu dropdown-list dropdown-menu-right pullDown">
+          <div class="dropdown-header">
+            Messages
+            <div class="float-right">
+              <a href="#">Mark All As Read</a>
+            </div>
+          </div>
+          <div class="dropdown-list-content dropdown-list-message">
+            <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar
+                  text-white"> <img alt="image" src="assets/img/users/user-1.png" class="rounded-circle">
+              </span> <span class="dropdown-item-desc"> <span class="message-user">John
+                  Deo</span>
+                <span class="time messege-text">Please check your mail !!</span>
+                <span class="time">2 Min Ago</span>
+              </span>
+            </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                <img alt="image" src="assets/img/users/user-2.png" class="rounded-circle">
+              </span> <span class="dropdown-item-desc"> <span class="message-user">Sarah
+                  Smith</span> <span class="time messege-text">Request for leave
+                  application</span>
+                <span class="time">5 Min Ago</span>
+              </span>
+            </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                <img alt="image" src="assets/img/users/user-5.png" class="rounded-circle">
+              </span> <span class="dropdown-item-desc"> <span class="message-user">Jacob
+                  Ryan</span> <span class="time messege-text">Your payment invoice is
+                  generated.</span> <span class="time">12 Min Ago</span>
+              </span>
+            </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                <img alt="image" src="assets/img/users/user-4.png" class="rounded-circle">
+              </span> <span class="dropdown-item-desc"> <span class="message-user">Lina
+                  Smith</span> <span class="time messege-text">hii John, I have upload
+                  doc
+                  related to task.</span> <span class="time">30
+                  Min Ago</span>
+              </span>
+            </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                <img alt="image" src="assets/img/users/user-3.png" class="rounded-circle">
+              </span> <span class="dropdown-item-desc"> <span class="message-user">Jalpa
+                  Joshi</span> <span class="time messege-text">Please do as specify.
+                  Let me
+                  know if you have any query.</span> <span class="time">1
+                  Days Ago</span>
+              </span>
+            </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-avatar text-white">
+                <img alt="image" src="assets/img/users/user-2.png" class="rounded-circle">
+              </span> <span class="dropdown-item-desc"> <span class="message-user">Sarah
+                  Smith</span> <span class="time messege-text">Client Requirements</span>
+                <span class="time">2 Days Ago</span>
+              </span>
+            </a>
+          </div>
+          <div class="dropdown-footer text-center">
+            <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </li>
+      <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown"
+          class="nav-link notification-toggle nav-link-lg"><i data-feather="bell" class="bell"></i>
+        </a>
+        <div class="dropdown-menu dropdown-list dropdown-menu-right pullDown">
+          <div class="dropdown-header">
+            Notifications
+            <div class="float-right">
+              <a href="#">Mark All As Read</a>
+            </div>
+          </div>
+          <div class="dropdown-list-content dropdown-list-icons">
+            <a href="#" class="dropdown-item dropdown-item-unread"> <span
+                class="dropdown-item-icon bg-primary text-white"> <i class="fas
+                    fa-code"></i>
+              </span> <span class="dropdown-item-desc"> Template update is
+                available now! <span class="time">2 Min
+                  Ago</span>
+              </span>
+            </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-icon bg-info text-white"> <i class="far
+                    fa-user"></i>
+              </span> <span class="dropdown-item-desc"> <b>You</b> and <b>Dedik
+                  Sugiharto</b> are now friends <span class="time">10 Hours
+                  Ago</span>
+              </span>
+            </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-icon bg-success text-white"> <i
+                  class="fas
+                    fa-check"></i>
+              </span> <span class="dropdown-item-desc"> <b>Kusnaedi</b> has
+                moved task <b>Fix bug header</b> to <b>Done</b> <span class="time">12
+                  Hours
+                  Ago</span>
+              </span>
+            </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-icon bg-danger text-white"> <i
+                  class="fas fa-exclamation-triangle"></i>
+              </span> <span class="dropdown-item-desc"> Low disk space. Let's
+                clean it! <span class="time">17 Hours Ago</span>
+              </span>
+            </a> <a href="#" class="dropdown-item"> <span class="dropdown-item-icon bg-info text-white"> <i class="fas
+                    fa-bell"></i>
+              </span> <span class="dropdown-item-desc"> Welcome to Otika
+                template! <span class="time">Yesterday</span>
+              </span>
+            </a>
+          </div>
+          <div class="dropdown-footer text-center">
+            <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </li>
+      <li class="dropdown"><a href="#" data-toggle="dropdown"
+          class="nav-link dropdown-toggle nav-link-lg nav-link-user"> <img alt="image" src="assets/img/user.png"
+            class="user-img-radious-style"> <span class="d-sm-none d-lg-inline-block"></span></a>
+        <div class="dropdown-menu dropdown-menu-right pullDown">
+          <div class="dropdown-title">Hello Sarah Smith</div>
+          <a href="profile.html" class="dropdown-item has-icon"> <i class="far
+                fa-user"></i> Profile
+          </a> <a href="timeline.html" class="dropdown-item has-icon"> <i class="fas fa-bolt"></i>
+            Activities
+          </a> <a href="#" class="dropdown-item has-icon"> <i class="fas fa-cog"></i>
+            Settings
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="auth-login.html" class="dropdown-item has-icon text-danger"> <i class="fas fa-sign-out-alt"></i>
+            Logout
+          </a>
+        </div>
+      </li>
+    </ul>
+  </nav>
   <!-- End Header -->
