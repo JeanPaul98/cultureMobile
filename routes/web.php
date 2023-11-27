@@ -15,43 +15,56 @@ use Illuminate\Support\Facades\Route;
 
 // Site route
 
-Route::get('/', function () {
-    return view('pages.index');
-});
+Route::get('/', function () { return view('pages.index');});
 
-Route::get('/a-propos', function () {
-    return view('pages.about');
-});
-Route::get('/contact', function () {
-    return view('pages.contact');
-});
+Route::get('/a-propos', function () {return view('pages.about');});
 
-Route::get('/kiosque', function () {
-    return view('pages.kiosque');
-});
+Route::get('/contact', function () { return view('pages.contact');});
 
-Route::get('/faq', function () {
-    return view('pages.faq');
-});
+Route::get('/kiosque', function () {return view('pages.kiosque');});
 
-Route::get('/lien-utiles', function () {
-    return view('pages.utiles');
-});
+Route::get('/faq', function () {return view('pages.faq');});
 
-Route::get('/inscription', function () {
-    return view('pages.inscription');
-});
+Route::get('/lien-utiles', function () {return view('pages.utiles');});
 
-// Dasboard route
-Route::get('/connexion', function () {
-    return view('dashboard.connexion');
-});
-
-Route::get('/connexion/admin', function () {
-    return view('dashboard.dashboard');
-});
+Route::get('/inscription', function () { return view('pages.inscription');});
 
 
-// Route::get('/', function () {
-//     return view('dashboard.warning');
+// Route::get('/', function () {return view('dashboard.warning');});
+
+// 
+
+// Route::group(['namespace' => 'App\Http\Controllers'], function()
+// {   
+//     /**
+//      * Home Routes
+//      */
+
+//     Route::get('/', 'HomeController@index')->name('home.index');
+
+//     Route::group(['middleware' => ['guest']], function() {
+//         /**
+//          * Register Routes
+//          */
+//         Route::get('/register', 'RegisterController@show')->name('register.show');
+//         Route::post('/register', 'RegisterController@register')->name('register.perform');
+
+//         /**
+//          * Login Routes
+//          */
+//         Route::get('/connexion', 'LoginController@show')->name('login.show');
+//         Route::post('/login', 'LoginController@login')->name('login.perform');
+
+            // Dasboard route
+            Route::get('/connexion', function () {return view('dashboard.connexion');});
+            Route::get('/connexion/admin', function () { return view('dashboard.dashboard');});
+
+//     });
+
+//     Route::group(['middleware' => ['auth']], function() {
+//         /**
+//          * Logout Routes
+//          */
+//         Route::get('/logout', 'LogoutController@perform')->name('logout.perform');
+//     });
 // });
