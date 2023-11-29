@@ -11,12 +11,12 @@ class LogoutController extends Controller
      *
      * @return \Illuminate\Routing\Redirector
      */
-    // public function perform()
-    // {
-    //     Session::flush();
+    public function perform()
+    {
+        Session::flush();
         
-    //     Auth::logout();
+        Auth::logout();
 
-    //     return redirect('login');
-    // }
+        return redirect('/dashboard')->with('success', 'You have been logged out.'); // Customize the message and redirect path
+    }
 }

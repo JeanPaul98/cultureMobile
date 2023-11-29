@@ -1,6 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Auth\LogoutController;
+use App\Http\Controllers\Controller;
+
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,8 +22,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Site route
 
+//Pages
 Route::get('/', function () { return view('pages.index');});
 
 Route::get('/a-propos', function () {return view('pages.about');});
@@ -30,41 +39,19 @@ Route::get('/lien-utiles', function () {return view('pages.utiles');});
 Route::get('/inscription', function () { return view('pages.inscription');});
 
 
-// Route::get('/', function () {return view('dashboard.warning');});
+// Dasboard route
+Route::get('/register', [HomeController::class, 'showAgender'])->name('dashboard');
+Route::get('/connexion/agender', function () {return view('dashboard.agender');});
 
-// 
+Route::get('/register', [HomeController::class, 'showDashboard'])->name('dashboard');
+Route::get('/connexion/admin', function () { return view('dashboard.dashboard');});
 
-// Route::group(['namespace' => 'App\Http\Controllers'], function()
-// {   
-//     /**
-//      * Home Routes
-//      */
+Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
+Route::get('/register', function () {return view('dashboard.register');});
+Route::post('/register', [RegisterController::class, 'register']);
 
-//     Route::get('/', 'HomeController@index')->name('home.index');
+Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
+Route::get('/connexion', function () {return view('dashboard.connexion');});
+Route::post('/login', [LoginController::class, 'login']);
 
-//     Route::group(['middleware' => ['guest']], function() {
-//         /**
-//          * Register Routes
-//          */
-//         Route::get('/register', 'RegisterController@show')->name('register.show');
-//         Route::post('/register', 'RegisterController@register')->name('register.perform');
-
-//         /**
-//          * Login Routes
-//          */
-//         Route::get('/connexion', 'LoginController@show')->name('login.show');
-//         Route::post('/login', 'LoginController@login')->name('login.perform');
-
-            // Dasboard route
-            Route::get('/connexion', function () {return view('dashboard.connexion');});
-            Route::get('/connexion/admin', function () { return view('dashboard.dashboard');});
-
-//     });
-
-//     Route::group(['middleware' => ['auth']], function() {
-//         /**
-//          * Logout Routes
-//          */
-//         Route::get('/logout', 'LogoutController@perform')->name('logout.perform');
-//     });
-// });
+Route::post('/logout', [LogoutController::class, 'logout'])->name('logout');

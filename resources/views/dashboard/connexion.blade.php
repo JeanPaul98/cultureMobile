@@ -17,45 +17,46 @@
                       <h4>Connexion</h4>
                     </div>
                     <div class="card-body">
-                      <form method="POST" action="#" class="needs-validation" novalidate="">
+                      <form method="POST" action="{{ route('login') }}">
+                        @csrf
+
                         <div class="form-group">
                           <label for="email">E-mail</label>
-                          <input id="email" type="email" class="form-control" name="email" tabindex="1" required autofocus>
+                          <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
                           <div class="invalid-feedback">
-                            Please fill in your email
                           </div>
-                        </div>
-                        <div class="form-group">
-                          <div class="d-block">
-                            <label for="password" class="control-label">Mot de passe</label>
-                            {{-- <div class="float-right">
-                              <a href="auth-forgot-password.html" class="text-small">
-                                Forgot Password?
-                              </a>
-                            </div> --}}
-                          </div>
-                          <input id="password" type="password" class="form-control" name="password" tabindex="2" required>
-                          <div class="invalid-feedback">
-                            please fill in your password
-                          </div>
-                        </div>
-                        <div class="form-group">
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" name="remember" class="custom-control-input" tabindex="3" id="remember-me">
-                            <label class="custom-control-label" for="remember-me">Souviens-toi de moi</label>
-                          </div>
-                        </div>
+                          @error('email')
+                          <span class="invalid-feedback" role="alert">
+                              <strong>{{ $message }}</strong>
+                          </span>
+                          @enderror
+                         </div>
+
+                              <div class="form-group">
+                                <label for="password" class="d-block">Mot de passe</label>
+                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" value="{{ old('password') }}" required autocomplete="name" name="password">
+                                <div id="pwindicator" class="pwindicator">
+                                  <div class="bar"></div>
+                                  <div class="label"></div>
+                                </div>
+                                @error('password')
+                                <span class="invalid-feedback" role="alert">
+                                    <strong>{{ $message }}</strong>
+                                </span>
+                                @enderror
+                              </div>
+
                         <div class="form-group">
                           <button type="submit" class="btn btn-primary btn-lg btn-block" tabindex="4">
                             Se connecter
                           </button>
                         </div>
+                         {{-- <div class="mb-4 text-muted text-center">
+                          Déjà enregistré? <a href="/register">Enregister</a>
+                      </div> --}}
                       </form>
                     </div>
                   </div>
-                  {{-- <div class="mt-5 text-muted text-center">
-                    Don't have an account? <a href="auth-register.html">Create One</a>
-                  </div> --}}
                 </div>
               </div>
             </div>
