@@ -18,7 +18,7 @@ class LoginController extends Controller
     {
 
         $request->validate([
-            'email' => 'required|email',
+            'email' => 'required',
             'password' => 'required',
         ]);
 
@@ -26,9 +26,10 @@ class LoginController extends Controller
         $credentials = $request->only('email', 'password');
 
         if (Auth::attempt($credentials)) {
-            return redirect()->intended('/dashboard.dashboard');
+            return redirect()->intended('admin');
         }
 
         return redirect()->back()->withErrors(['email' => 'Invalid credentials']);
     }
+
 }

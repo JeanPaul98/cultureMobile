@@ -1,22 +1,25 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Auth;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Auth;
 
 class LogoutController extends Controller
 {
     /**
-     * Log out account user.
+     * Log the user out of the application.
      *
-     * @return \Illuminate\Routing\Redirector
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function perform()
+    public function logout()
     {
         Session::flush();
-        
+
         Auth::logout();
 
-        return redirect('/dashboard')->with('success', 'You have been logged out.'); // Customize the message and redirect path
+        return redirect('/login');
     }
 }

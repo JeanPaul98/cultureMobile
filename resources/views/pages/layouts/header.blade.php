@@ -9,12 +9,12 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="/a-propos">A propos</a></li>
-          <li><a href="/inscription">Inscription</a></li>
-          <li><a href="/kiosque">Kiosque</a></li>
-          {{-- <li><a href="/lien-utiles">Liens utiles</a></li> --}}
-          <li><a href="/contact">Contactez Nous</a></li>
-          {{-- <li><a href="/faq">FAQ</a></li> --}}
+          <li><a href="{{ route('a-propos') }}">A propos</a></li>
+          <li><a href="{{ route('inscription') }}">Inscription</a></li>
+          <li><a href="{{ route('kiosque') }}">Kiosque</a></li>
+          {{-- <li><a href="{{ route('a-propos') }}">Liens utiles</a></li> --}}
+          <li><a href="{{ route('contact') }}">Contactez Nous</a></li>
+          {{-- <li><a href="{{ route('a-propos') }}">FAQ</a></li> --}}
         </ul>
       </nav>
       <div class="position-relative">
